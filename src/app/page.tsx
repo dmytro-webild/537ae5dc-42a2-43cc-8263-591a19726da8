@@ -6,7 +6,7 @@ import ContactText from '@/components/sections/contact/ContactText';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -32,30 +32,24 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "About",          id: "about"},
-        {
-          name: "Features",          id: "features"},
-        {
-          name: "Pricing",          id: "pricing"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "About", id: "about" },
+        { name: "Features", id: "features" },
+        { name: "Pricing", id: "pricing" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="CarterDesigner"
     />
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroLogo
-      logoText="CarterDesigner"
+      <HeroBillboard
+      title="CarterDesigner"
       description="Crafting high-conversion digital experiences for forward-thinking brands. Expert web design and development that translates vision into growth."
+      background={{ variant: "sparkles-gradient" }}
       buttons={[
-        {
-          text: "View My Work",          href: "#features"},
-        {
-          text: "Start a Project",          href: "#contact"},
+        { text: "View My Work", href: "#features" },
+        { text: "Start a Project", href: "#contact" },
       ]}
-      buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/still-life-graphic-design-studio_23-2151320704.jpg"
     />
   </div>
@@ -80,11 +74,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Portfolio Sites",          description: "High-impact visual showcases designed to represent your unique brand and expertise with elegance.",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-office_23-2151345421.jpg"},
+          title: "Portfolio Sites",          description: "High-impact visual showcases designed to represent your unique brand and expertise with elegance.",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-office_23-2151345421.jpg"
+        },
         {
-          title: "Landing Pages",          description: "Conversion-focused landing pages engineered to turn traffic into leads and clients with speed and precision.",          imageSrc: "http://img.b2bpic.net/free-photo/inspired-youth_53876-176745.jpg"},
+          title: "Landing Pages",          description: "Conversion-focused landing pages engineered to turn traffic into leads and clients with speed and precision.",          imageSrc: "http://img.b2bpic.net/free-photo/inspired-youth_53876-176745.jpg"
+        },
         {
-          title: "Full-Stack Dev",          description: "Custom development solutions using cutting-edge tech stacks that are scalable, secure, and lightning-fast.",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-day_52683-160828.jpg"},
+          title: "Full-Stack Dev",          description: "Custom development solutions using cutting-edge tech stacks that are scalable, secure, and lightning-fast.",          imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphic-design-day_52683-160828.jpg"
+        },
       ]}
       title="What I Do Best"
       description="Premium services tailored to boost your digital presence and drive conversions effectively."
@@ -98,12 +95,9 @@ export default function LandingPage() {
       animationType="slide-up"
       useInvertedBackground={false}
       metrics={[
-        {
-          id: "m1",          value: "150+",          description: "Projects Delivered"},
-        {
-          id: "m2",          value: "99.9%",          description: "Client Satisfaction"},
-        {
-          id: "m3",          value: "2x",          description: "Avg Conversion Lift"},
+        { id: "m1", value: "150+", description: "Projects Delivered" },
+        { id: "m2", value: "99.9%", description: "Client Satisfaction" },
+        { id: "m3", value: "2x", description: "Avg Conversion Lift" },
       ]}
       title="Proven Impact"
       description="Quantifiable results that demonstrate the effectiveness of my designs and development practices."
@@ -119,19 +113,16 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Sarah J.",          role: "Creative Lead",          company: "DesignCo",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg"
+        },
         {
           id: "2",          name: "Michael C.",          role: "Founder",          company: "TechLabs",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/technician-making-sure-high-tech-facility-data-center-is-appropriately-equipped_482257-94430.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/technician-making-sure-high-tech-facility-data-center-is-appropriately-equipped_482257-94430.jpg"
+        },
         {
           id: "3",          name: "Emily R.",          role: "Director",          company: "Innovate",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-bearded-man-art-studio_23-2149705900.jpg"},
-        {
-          id: "4",          name: "David K.",          role: "PM",          company: "Growth",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-entrepreneur-with-corporate-job-looking-camera-business-office-portrait-young-man-preparing-work-planning-development-industry-with-technology-computer_482257-29387.jpg"},
-        {
-          id: "5",          name: "Jane D.",          role: "CEO",          company: "Vision",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-senior-businessman-with-arms-crossed_1262-1751.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-bearded-man-art-studio_23-2149705900.jpg"
+        },
       ]}
       title="Loved by Clients"
       description="Client success stories showcasing how my work elevated their businesses and digital presence."
@@ -142,8 +133,7 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="split"
       useInvertedBackground={false}
-      names={[
-        "Microsoft",        "Google",        "Apple",        "Airbnb",        "Amazon",        "Shopify",        "Stripe"]}
+      names={["Microsoft", "Google", "Apple", "Airbnb", "Amazon", "Shopify", "Stripe"]}
       title="Trusted By Industry Leaders"
       description="Collaborating with elite teams and world-class organizations to build digital products that scale."
     />
@@ -153,12 +143,9 @@ export default function LandingPage() {
       <FaqSplitText
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",          title: "How long does a project take?",          content: "Most landing page projects are completed within 2-3 weeks depending on the complexity of your requirements."},
-        {
-          id: "q2",          title: "What is your design process?",          content: "We start with a discovery phase, move to design mockups, and end with development and launch, keeping you informed at every step."},
-        {
-          id: "q3",          title: "Can you handle maintenance?",          content: "Yes, I offer ongoing maintenance and support packages to ensure your site remains secure and updated."},
+        { id: "q1", title: "How long does a project take?", content: "Most landing page projects are completed within 2-3 weeks depending on the complexity of your requirements." },
+        { id: "q2", title: "What is your design process?", content: "We start with a discovery phase, move to design mockups, and end with development and launch, keeping you informed at every step." },
+        { id: "q3", title: "Can you handle maintenance?", content: "Yes, I offer ongoing maintenance and support packages to ensure your site remains secure and updated." },
       ]}
       sideTitle="Frequently Asked Questions"
       sideDescription="Everything you need to know about working with CarterDesigner."
@@ -169,23 +156,17 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "gradient-bars"}}
+      background={{ variant: "gradient-bars" }}
       text="Ready to launch your next big project? Let's build something extraordinary together."
-      buttons={[
-        {
-          text: "Contact Me Now",          href: "mailto:hello@carterdesigner.com"},
-      ]}
+      buttons={[{ text: "Contact Me Now", href: "mailto:hello@carterdesigner.com" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="CarterDesigner"
-      leftLink={{
-        text: "Privacy Policy",        href: "#"}}
-      rightLink={{
-        text: "© 2024 CarterDesigner. All rights reserved.",        href: "#"}}
+      leftLink={{ text: "Privacy Policy", href: "#" }}
+      rightLink={{ text: "© 2024 CarterDesigner. All rights reserved.", href: "#" }}
     />
   </div>
       </ReactLenis>
