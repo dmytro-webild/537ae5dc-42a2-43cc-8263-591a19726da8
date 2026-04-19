@@ -61,7 +61,7 @@ export default function LandingPage() {
       title="Your Vision, My Code."
       description="I focus on blending aesthetic design with robust development, creating portfolios and landing pages that convert visitors into loyal clients."
       subdescription="I bring over 5 years of experience to every project, ensuring modern, responsive, and performance-optimized solutions."
-      imageSrc="http://img.b2bpic.net/free-photo/man-is-working-cafe-concept-freelancing-coffee-laptop_1321-885.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B55aNX7QkTWF45mtrLiKakdOk5/uploaded-1776441857018-76vi3zs6.jpg"
       mediaAnimation="blur-reveal"
       icon={Code}
     />
