@@ -11,8 +11,8 @@ import { Manrope } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'CarterDesigner | Expert Web Design & Development',
-  description: 'Expert web designer and developer creating high-conversion portfolio and landing pages for brands.',
+  title: "CarterDesigner | Expert Web Design & Development",
+  description: "Expert web designer and developer creating high-conversion portfolio and landing pages for brands.",
   openGraph: {
     "title": "CarterDesigner | Expert Web Design & Development",
     "description": "Expert web designer and developer creating high-conversion portfolio and landing pages for brands.",
