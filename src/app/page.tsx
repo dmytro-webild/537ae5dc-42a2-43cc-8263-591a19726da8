@@ -37,13 +37,13 @@ export default function LandingPage() {
         { name: "Pricing", id: "pricing" },
         { name: "Contact", id: "contact" },
       ]}
-      brandName="CarterDesigner"
+      brandName="CARTER24 "
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboard
-      title="CarterDesigner"
+      title="Clicks to Customers"
       description="Crafting high-conversion digital experiences for forward-thinking brands. Expert web design and development that translates vision into growth."
       background={{ variant: "sparkles-gradient" }}
       buttons={[
@@ -164,7 +164,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoText="CarterDesigner"
+      logoText="CARTER24"
       leftLink={{ text: "Privacy Policy", href: "#" }}
       rightLink={{ text: "© 2024 CarterDesigner. All rights reserved.", href: "#" }}
     />
