@@ -58,9 +58,9 @@ export default function LandingPage() {
       <TestimonialAboutCard
       useInvertedBackground={false}
       tag="About Me"
-      title="Your Vision, My Code."
-      description="I focus on blending aesthetic design with robust development, creating portfolios and landing pages that convert visitors into loyal clients."
-      subdescription="I bring over 5 years of experience to every project, ensuring modern, responsive, and performance-optimized solutions."
+      title="from Vision to Reality"
+      description="I focus on providing the best possible service for clients. What they ask for, their vision, becomes a reality."
+      subdescription="I bring over 3 years of learning and experience in the industry which will be shown in the work I will do for you."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B55aNX7QkTWF45mtrLiKakdOk5/uploaded-1776441857018-76vi3zs6.jpg"
       mediaAnimation="blur-reveal"
       icon={Code}
