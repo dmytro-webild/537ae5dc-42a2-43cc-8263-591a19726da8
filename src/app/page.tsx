@@ -23,10 +23,10 @@ export default function LandingPage() {
         contentWidth="small"
         sizing="largeSmallSizeLargeTitles"
         background="none"
-        cardStyle="gradient-bordered"
+        cardStyle="layered-gradient"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="solid"
-        headingFontWeight="bold"
+        headingFontWeight="light"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
